@@ -2,28 +2,28 @@
 class ShroudDev < Formula
   desc "Terminal multiplexer for modern terminals (dev build of main)"
   homepage "https://github.com/edjeffreys/shroud"
-  version "0.1.0-dev.2"
+  version "0.1.0-dev.5"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/edjeffreys/shroud/releases/download/dev/shroud-dev-aarch64-apple-darwin.tar.gz"
-      sha256 "cccbfad0e2f2e83e686d334146316222e160b20e02f2fd32a26909f55a6ca3fe"
+      sha256 "bc39ec36cd24b868a75fdde33a7712cb8c6cb79d269bee5d3cad6f5a9c931419"
     end
     on_intel do
       url "https://github.com/edjeffreys/shroud/releases/download/dev/shroud-dev-x86_64-apple-darwin.tar.gz"
-      sha256 "67356d96ad1efe7d99b28e86171433e05691fcf6fb644cef98139c503204c4a4"
+      sha256 "fba9dea743cdcd510200002dc6d4ee5b8afc8b453a03ece5c904181d30a063d3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/edjeffreys/shroud/releases/download/dev/shroud-dev-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "23baff2d0d10cf40f31ba46e48e6244bb6667cd468334e9dde26a487bf6297f7"
+      sha256 "127ea5da0d4f14fd86a42508234011c3544a80e3bd1127ff5a265fc23b12e1cd"
     end
     on_intel do
       url "https://github.com/edjeffreys/shroud/releases/download/dev/shroud-dev-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fcc63f9939a124cf52eb46a78c3195501c43f872065e5bc3b75c1c20ee37384b"
+      sha256 "07680bcaeec74817b55dfb9e6c499652e4686811a12090bda02fa22a3d6dfd81"
     end
   end
 
